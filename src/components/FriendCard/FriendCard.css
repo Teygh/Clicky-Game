@@ -1,47 +1,32 @@
 .card {
-  background: #fff;
-  border-radius: 2px;
-  height: 325px;
+  background: rgb(245, 0, 0);
+  margin-left: 50px;
+  border: 20px;
+  border-color: black;
+  border-radius: 10px;
+  height: 200px;
   margin: 1rem;
   position: relative;
-  width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  width: 200px;
+  box-shadow: 0 6px 12px rgb(98, 98, 98), 0 3px 6px rgb(85, 85, 85);
   text-align: left;
 }
 
 .card > .img-container {
-  height: 60%;
+  border-radius: 10px;
+  height: 100%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: radial-gradient(rgb(230, 14, 14), rgb(230, 169, 40));
 }
+
 .card > .img-container > img {
-  width: 60%
+  width: 80%
 }
 
-.card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
-}
-
-.card > .content > ul {
-  list-style-type: none;
-}
-
-.card > .content > ul > li {
-  margin-top: 18px;
-}
-
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
+.card > .img-container:hover {
+  
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
 }

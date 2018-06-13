@@ -1,7 +1,7 @@
 import React from "react";
-import "./Title.css";
+import "./Instructions.css";
 
-const Title = props => <div className="container title">
+const Instructions = props => <div className="container instructions">
 <div className="jumbotron">
   <h1>Clicky Game !</h1> 
   <p>Click on an image to earn points, but don't click on any more than once!</p> 
@@ -9,4 +9,4 @@ const Title = props => <div className="container title">
  
 </div>
 
-export default Title;
+export default Instructions;
