@@ -102,7 +102,7 @@ winner = () => {
           />;
         })}
 
-        <Footer />
+        
       </Wrapper>
   )};
 }
